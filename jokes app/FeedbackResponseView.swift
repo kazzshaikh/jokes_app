@@ -16,7 +16,7 @@ struct FeedbackResponseView: View {
             Image (isFeedbackPositive ? "thx" : "HOW DARE YOU!")
                 .resizable ()
                 .scaledToFit ()
-            Text (isFeedbackPositive ? "Yay! That makes me happy." : "Boooooo, you hate fun.")
+            Text (isFeedbackPositive ? "Thx! That makes me happy." : "Boooo, you hate fun!")
         }
     }
     struct FeedbackResponseView_Previews: PreviewProvider {
